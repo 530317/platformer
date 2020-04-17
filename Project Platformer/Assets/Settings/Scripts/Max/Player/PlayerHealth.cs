@@ -121,7 +121,7 @@ public class PlayerHealth : Damagable
         if (oxygenLvl <= 0)
         {
             oxygenDamageAmount = 0;
-            StartCoroutine(BloodLossTime(1000, 1, 0.05f));
+            StartCoroutine(BloodLossTime(1000, 1, 0.03f));
         }
         else if(oxygenLvl > 0)
         {
