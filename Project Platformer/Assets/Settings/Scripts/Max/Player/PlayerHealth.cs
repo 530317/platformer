@@ -125,7 +125,7 @@ public class PlayerHealth : Damagable
         }
         else if(oxygenLvl > 0)
         {
-            oxygenDamageAmount = 0.05f;
+            oxygenDamageAmount = 0.03f;
             oxygenLvl -= oxygenDamageAmount;
         }
     }
