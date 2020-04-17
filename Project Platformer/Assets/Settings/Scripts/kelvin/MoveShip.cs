@@ -26,5 +26,6 @@ public class MoveShip : MonoBehaviour
         {
             SceneManager.LoadScene("Startmeneu");
         }
+        Debug.Log(transform.position);
     }
 }

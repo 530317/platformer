@@ -16,7 +16,7 @@ public class DeathAudioTrigger : MonoBehaviour
     }
     IEnumerator death()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(audio.clip.length);
         Destroy(player);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
